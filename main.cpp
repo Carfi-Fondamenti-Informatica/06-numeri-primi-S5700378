@@ -9,6 +9,6 @@ int b=(a-1);
 if (n_primo(a,b)) {
     cout << "numero primo";
 }else if (n_primo(a,b)==false) {
-    cout << "numero primo";
+    cout << "numero non primo";
 }  return 0;
 }
