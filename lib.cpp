@@ -10,7 +10,7 @@ bool numeroprimo (int n) {
       i++;
       x = n%1;
     }
-    while (x!=0)
+    while (x!=0);
     if (n == 1) {
         risultato=0;
         return risultato;
