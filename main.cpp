@@ -2,13 +2,14 @@
 #include "lib.h"
 using namespace std;
 
-  int main() {
-int a=0;
-cin >> a;
-int b=(a-1);
-if (n_primo(a,b)) {
-    cout << "numero primo";
-}else if (n_primo(a,b)==false) {
-    cout << "numero non primo";
-} return 0;
+int main() {
+    int p;
+    cin >> p;
+if (numeroprimo(p) == 0) {
+    cout << "numero primo" << endl;
+}
+  else {
+    cout << "numero non primo" << endl;
+} 
+  return 0;
 }
